@@ -25,6 +25,5 @@ fn check(s: Vec<char>, c: char) -> usize {
             pre += 1;
         }
     }
-    a = max(a, pre);
-    a
+    max(a, pre)
 }
